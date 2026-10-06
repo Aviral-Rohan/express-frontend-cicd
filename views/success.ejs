@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Success</title></head>
+<body style="font-family: Arial, sans-serif; max-width: 520px; margin: 60px auto;">
+  <h2 style="color: green;">Data submitted successfully</h2>
+  <p><%= result.message %></p>
+  <h4>Response from Flask backend:</h4>
+  <pre style="background:#f3f4f6; padding:12px;"><%= JSON.stringify(result.data, null, 2) %></pre>
+  <a href="/">Submit another</a>
+</body>
+</html>
