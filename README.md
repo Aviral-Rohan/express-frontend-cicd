@@ -14,3 +14,4 @@ npm test      # run the tests
 
 ## CI/CD
 The `Jenkinsfile` runs on every push: checkout → install dependencies → test → deploy → health check.
+
